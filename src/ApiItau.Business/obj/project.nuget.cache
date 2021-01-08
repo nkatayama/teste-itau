@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wbs5VB5MV8nW0Yx/6RJW4YHPwk3T4iDtr4IzN60WjM0ohR5awnBO8KvB2xLsHl/P2GZ9mpJrGk943H+QxCEQ3Q==",
+  "success": true,
+  "projectFilePath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj",
+  "expectedPackageFiles": [
+    "/home/nicolas/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
+    "/home/nicolas/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

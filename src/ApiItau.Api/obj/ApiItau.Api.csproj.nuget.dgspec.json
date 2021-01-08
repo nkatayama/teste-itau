@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nicolas/Projetos/TesteItau/ApiItau.Api/ApiItau.Api.csproj": {}
+  },
+  "projects": {
+    "/home/nicolas/Projetos/TesteItau/ApiItau.Api/ApiItau.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Api/ApiItau.Api.csproj",
+        "projectName": "ApiItau.Api",
+        "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Api/ApiItau.Api.csproj",
+        "packagesPath": "/home/nicolas/.nuget/packages/",
+        "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj": {
+                "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj"
+              },
+              "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj": {
+                "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj",
+        "projectName": "ApiItau.Business",
+        "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj",
+        "packagesPath": "/home/nicolas/.nuget/packages/",
+        "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj": {
+                "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj",
+        "projectName": "ApiItau.Domain",
+        "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj",
+        "packagesPath": "/home/nicolas/.nuget/packages/",
+        "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj",
+        "projectName": "ApiItau.Infra",
+        "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj",
+        "packagesPath": "/home/nicolas/.nuget/packages/",
+        "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj": {
+                "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj"
+              },
+              "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj": {
+                "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
