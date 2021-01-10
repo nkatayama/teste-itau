@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DcOibMrjjV5CSfzPDyu0Niqim3cey+YUqNIGQ4E3j/G0AEB4QRpAdUbLaSdBZfEwzmcA+DW0djuX85TDVJThpA==",
+  "dgSpecHash": "PyfVtfQjTgeGChp7/p7OIdsgdwFB/9bedqKEkv+02bjp47Br6RKFBAwPbpAk6ZCx9VaPgiobAb35oUaF3vJd0A==",
   "success": true,
-  "projectFilePath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj",
+  "projectFilePath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Infra/ApiItau.Infra.csproj",
   "expectedPackageFiles": [
     "/home/nicolas/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
     "/home/nicolas/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",

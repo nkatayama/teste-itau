@@ -82,7 +82,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "ApiItau.Domain": "1.0.0",
           "FluentValidation": "8.6.2"
         },
         "compile": {
@@ -90,16 +89,6 @@
         },
         "runtime": {
           "bin/placeholder/ApiItau.Business.dll": {}
-        }
-      },
-      "ApiItau.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/ApiItau.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ApiItau.Domain.dll": {}
         }
       }
     }
@@ -321,17 +310,11 @@
       "type": "project",
       "path": "../ApiItau.Business/ApiItau.Business.csproj",
       "msbuildProject": "../ApiItau.Business/ApiItau.Business.csproj"
-    },
-    "ApiItau.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ApiItau.Domain/ApiItau.Domain.csproj",
-      "msbuildProject": "../ApiItau.Domain/ApiItau.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "ApiItau.Business >= 1.0.0",
-      "ApiItau.Domain >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.1"
     ]
@@ -342,11 +325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj",
+      "projectUniqueName": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Infra/ApiItau.Infra.csproj",
       "projectName": "ApiItau.Infra",
-      "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/ApiItau.Infra.csproj",
+      "projectPath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Infra/ApiItau.Infra.csproj",
       "packagesPath": "/home/nicolas/.nuget/packages/",
-      "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Infra/obj/",
+      "outputPath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Infra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nicolas/.nuget/NuGet/NuGet.Config"
@@ -361,11 +344,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj": {
-              "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj"
-            },
-            "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj": {
-              "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj"
+            "/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/ApiItau.Business.csproj": {
+              "projectPath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/ApiItau.Business.csproj"
             }
           }
         }

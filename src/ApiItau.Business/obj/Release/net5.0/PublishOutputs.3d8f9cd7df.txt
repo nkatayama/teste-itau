@@ -1,0 +1,4 @@
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Business.deps.json
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Business.pdb
+/home/nicolas/Projetos/teste-itau/publish/FluentValidation.dll

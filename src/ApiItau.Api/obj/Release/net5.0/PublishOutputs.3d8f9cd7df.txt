@@ -1,0 +1,17 @@
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Api
+/home/nicolas/Projetos/teste-itau/publish/appsettings.Development.json
+/home/nicolas/Projetos/teste-itau/publish/appsettings.json
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Api.dll
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Api.deps.json
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Api.runtimeconfig.json
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Api.pdb
+/home/nicolas/Projetos/teste-itau/publish/FluentValidation.dll
+/home/nicolas/Projetos/teste-itau/publish/Microsoft.Extensions.DependencyInjection.dll
+/home/nicolas/Projetos/teste-itau/publish/Microsoft.OpenApi.dll
+/home/nicolas/Projetos/teste-itau/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/nicolas/Projetos/teste-itau/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/nicolas/Projetos/teste-itau/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Infra.dll
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Business.pdb
+/home/nicolas/Projetos/teste-itau/publish/ApiItau.Infra.pdb

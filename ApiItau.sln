@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiItau.Tests", "src\ApiIta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiItau.Business", "src\ApiItau.Business\ApiItau.Business.csproj", "{EED6F770-4381-4689-A47B-D8B5A115940A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF2F5163-4850-4C66-A4EF-7A365E261F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiItau.Web.Tests", "src\ApiItau.Web.Tests\ApiItau.Web.Tests.csproj", "{CBB17FB4-F11B-4748-8A27-52847422E189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{EED6F770-4381-4689-A47B-D8B5A115940A}.Release|x64.Build.0 = Release|Any CPU
 		{EED6F770-4381-4689-A47B-D8B5A115940A}.Release|x86.ActiveCfg = Release|Any CPU
 		{EED6F770-4381-4689-A47B-D8B5A115940A}.Release|x86.Build.0 = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|x64.Build.0 = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Debug|x86.Build.0 = Debug|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|x64.ActiveCfg = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|x64.Build.0 = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|x86.ActiveCfg = Release|Any CPU
+		{CBB17FB4-F11B-4748-8A27-52847422E189}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBB17FB4-F11B-4748-8A27-52847422E189} = {AF2F5163-4850-4C66-A4EF-7A365E261F38}
 	EndGlobalSection
 EndGlobal

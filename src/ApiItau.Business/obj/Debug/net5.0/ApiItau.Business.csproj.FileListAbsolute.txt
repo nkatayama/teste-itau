@@ -13,3 +13,15 @@
 /home/nicolas/Projetos/TesteItau/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.dll
 /home/nicolas/Projetos/TesteItau/ApiItau.Business/obj/Debug/net5.0/ref/ApiItau.Business.dll
 /home/nicolas/Projetos/TesteItau/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.pdb
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/bin/Debug/net5.0/ApiItau.Business.deps.json
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/bin/Debug/net5.0/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/bin/Debug/net5.0/ref/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/bin/Debug/net5.0/ApiItau.Business.pdb
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.csprojAssemblyReference.cache
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.AssemblyInfoInputs.cache
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.AssemblyInfo.cs
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.csproj.CoreCompileInputs.cache
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ref/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/Debug/net5.0/ApiItau.Business.pdb

@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using ApiItau.Business.Validations;
 using Xunit;

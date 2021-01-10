@@ -1,7 +1,5 @@
-using System;
 using ApiItau.Business.Interfaces;
 using ApiItau.Business.Validations;
-using ApiItau.Domain;
 using FluentValidation.Results;
 
 namespace ApiItau.Business.Services

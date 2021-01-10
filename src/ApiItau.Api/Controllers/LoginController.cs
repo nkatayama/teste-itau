@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiItau.Business.Interfaces;
-using ApiItau.Domain;
+﻿using ApiItau.Business.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace ApiItau.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class LoginController : ApiController
     {
         private readonly IPasswordService _loginService;
@@ -20,11 +14,11 @@ namespace ApiItau.Api.Controllers
             _loginService = loginService;
         }
 
-        [HttpPost("validar-senha")]
-        public ActionResult ValidarSenha([FromBody] string password)
+        [HttpGet("password-check")]
+        public ActionResult ValidatePassword([FromHeader] string password)
         {
-            return !ModelState.IsValid ? CustomResponse(ModelState) 
-                : CustomResponse(_loginService.ValidatePassword(password));
+            return string.IsNullOrEmpty(password) ? CustomResponse(new {isValid = false}) 
+                : CustomResponse(new {isValid = _loginService.ValidatePassword(password).IsValid});
         }
     }
 }

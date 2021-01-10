@@ -1,6 +1,4 @@
-using System;
 using FluentValidation;
-using ApiItau.Domain;
 using System.Linq;
 using System.Text.RegularExpressions;
 

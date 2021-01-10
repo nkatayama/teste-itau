@@ -22,16 +22,6 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
-      },
-      "ApiItau.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/ApiItau.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ApiItau.Domain.dll": {}
-        }
       }
     }
   },
@@ -141,16 +131,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "ApiItau.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ApiItau.Domain/ApiItau.Domain.csproj",
-      "msbuildProject": "../ApiItau.Domain/ApiItau.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ApiItau.Domain >= 1.0.0",
       "FluentValidation >= 8.6.2"
     ]
   },
@@ -160,11 +144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj",
+      "projectUniqueName": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/ApiItau.Business.csproj",
       "projectName": "ApiItau.Business",
-      "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/ApiItau.Business.csproj",
+      "projectPath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/ApiItau.Business.csproj",
       "packagesPath": "/home/nicolas/.nuget/packages/",
-      "outputPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Business/obj/",
+      "outputPath": "/home/nicolas/Projetos/teste-itau/src/ApiItau.Business/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nicolas/.nuget/NuGet/NuGet.Config"
@@ -178,11 +162,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj": {
-              "projectPath": "/home/nicolas/Projetos/TesteItau/ApiItau.Domain/ApiItau.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,0 +1,17 @@
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Api
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/appsettings.Development.json
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/appsettings.json
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Api.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Api.deps.json
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Api.runtimeconfig.json
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Api.pdb
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/FluentValidation.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/Microsoft.Extensions.DependencyInjection.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/Microsoft.OpenApi.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Business.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Infra.dll
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Business.pdb
+/home/nicolas/Projetos/teste-itau/src/ApiItau.Api/publish/ApiItau.Infra.pdb
