@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "1043bcbd-80d9-4e5f-85b6-f36d10d8ed94",
+		"name": "Teste senha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/api/Login/password-check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"1234\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Login/password-check",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Login",
+						"password-check"
+					]
+				},
+				"description": "Teste do post request de validação de senha"
+			},
+			"response": []
+		}
+	]
+}
