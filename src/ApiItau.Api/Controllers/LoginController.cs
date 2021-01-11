@@ -14,8 +14,8 @@ namespace ApiItau.Api.Controllers
             _loginService = loginService;
         }
 
-        [HttpGet("password-check")]
-        public ActionResult ValidatePassword([FromHeader] string password)
+        [HttpPost("password-check")]
+        public ActionResult ValidatePassword([FromBody] string password)
         {
             return string.IsNullOrEmpty(password) ? CustomResponse(new {isValid = false}) 
                 : CustomResponse(new {isValid = _loginService.ValidatePassword(password).IsValid});
