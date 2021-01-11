@@ -18,7 +18,11 @@ com a propriedade IsValid determindando se a senha informada é válida ou não.
 - Necessário última versão do .NET Core SDK.
 - Executar o comando dotnet run na pasta do projeto ApiItau.Api
 - Executar o comando a seguir, substituido <senha> pela senha que deseja validar:
-	curl -X GET "https://localhost:5001/api/Login/password-check" -H  "accept: text/plain" -H  "Content-Type: application/json" -H "password: \"<senha>\"" --insecure
-	Ou impoortar o arquivo diponibilizado itau api.postman_collection.json no postman e enviar a requisição.
+	curl -X POST "https://localhost:5001/api/Login/password-check" -H  "accept: */*" -H  "Content-Type: application/json" -d "\"<senha>\""
+
+	Ou importar o arquivo diponibilizado itau Teste senha.postman_collection.json no postman e enviar a requisição, informando a senha no body do request.
+
+	Ou ainda acessar o swagger: https://localhost:5001/swagger/index.html
+
 	O retorno será um  json {"isValid":boolean} 
 
